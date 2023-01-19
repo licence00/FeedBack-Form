@@ -1,0 +1,64 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<link rel="stylesheet" href="style.css">  
+</head>    
+<body> 
+    <a href="https://www.iitm.ac.in/academics/overview">
+        <img src="iitm.png" alt="IITM Logo" style="width:100px;height:100px;" class="center">
+    </a>   
+<h2>FEED BACK FORM</h2>    
+<div class="container">    
+  <form>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="cname">Course Number :</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="cname" name="coursename" placeholder="Course Number..">    
+      </div>    
+    </div>     
+    <div class="row">    
+        <div class="col-25">    
+          <label for="Department">Department Name :</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="text" id="department" name="deprtment" placeholder="Department..">    
+        </div>    
+      </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="Rating">Rating :</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="rating" name="rating"> 
+          <option value="5">5</option>
+          <option value="4">4</option>    
+          <option value="3">3</option>    
+          <option value="2">2</option>    
+          <option value="1">1</option>   
+        </select>    
+      </div>    
+    </div>  
+    <br>
+    <div class="space"></div>
+    <button type="button" class="download">Download FeedBack PDF</button>
+    <button type="button" id="give">Give FeedBack</button>
+    <br>
+    <div class="row">    
+    <div class="col-25">    
+      <label for="feed_back">Feed Back</label>    
+    </div>    
+    <div class="col-75">    
+      <textarea id="subject" name="subject" placeholder="Please leave your valuable Feedback Here.." style="height:200px"></textarea>    
+    </div>    
+    </div>  
+    <p class="row">    
+      <input type="image" src="send.png" alt="Submit"
+      style="float:right" width="30" height="30" value="Submit">    
+    </p>    
+  </form>    
+</div>    
+</body>    
+</html>    
